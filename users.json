@@ -1,0 +1,20 @@
+{
+  "login": {
+    "positive": [
+      {
+        "email": "set-via-TEST_USER_EMAIL@example.com",
+        "password": "set-via-TEST_USER_PASSWORD"
+      }
+    ],
+    "negative": [
+      {
+        "email": "set-via-TEST_USER_EMAIL@example.com",
+        "password": "WrongPassword"
+      },
+      {
+        "email": "invalid_user@example.com",
+        "password": "SomePassword123"
+      }
+    ]
+  }
+}
